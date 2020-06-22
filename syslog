@@ -1,0 +1,26 @@
+Jun 22 09:56:33 cu-cs-vm rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="801" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jun 22 09:56:41 cu-cs-vm anacron[809]: Job `cron.daily' terminated
+Jun 22 09:56:41 cu-cs-vm anacron[809]: Normal exit (1 job run)
+Jun 22 10:01:33 cu-cs-vm uptimed: moving up to position 8: 0 days, 00:10:06
+Jun 22 10:06:21 cu-cs-vm dhclient[952]: DHCPREQUEST of 192.168.74.128 on ens33 to 192.168.74.254 port 67 (xid=0x54cfb46d)
+Jun 22 10:06:21 cu-cs-vm dhclient[952]: DHCPACK of 192.168.74.128 from 192.168.74.254
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3237]   address 192.168.74.128
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3238]   plen 24 (255.255.255.0)
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3239]   gateway 192.168.74.2
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3239]   server identifier 192.168.74.254
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3240]   lease time 1800
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3240]   nameserver '192.168.74.2'
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3240]   domain name 'localdomain'
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3240]   wins '192.168.74.2'
+Jun 22 10:06:21 cu-cs-vm NetworkManager[843]: <info>  [1592841981.3240] dhcp4 (ens33): state changed bound -> bound
+Jun 22 10:06:21 cu-cs-vm systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 22 10:06:21 cu-cs-vm dbus[814]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Jun 22 10:06:21 cu-cs-vm dhclient[952]: bound to 192.168.74.128 -- renewal in 868 seconds.
+Jun 22 10:06:21 cu-cs-vm dbus[814]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 22 10:06:21 cu-cs-vm systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 22 10:06:21 cu-cs-vm nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Jun 22 10:06:21 cu-cs-vm nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Jun 22 10:06:31 cu-cs-vm systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 22 10:06:31 cu-cs-vm systemd-tmpfiles[3046]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Jun 22 10:06:31 cu-cs-vm systemd[1]: Started Cleanup of Temporary Directories.
+Jun 22 10:11:33 cu-cs-vm uptimed: moving up to position 7: 0 days, 00:20:06
